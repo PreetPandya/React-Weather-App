@@ -82,7 +82,7 @@ export default function WeatherApp() {
       <div className="top-bar">
         <input
           className="cityInput"
-          type="text"
+          type="search"
           value={cityName}
           onChange={(event) => setCityName(event.target.value)}
           onKeyPress={searchLocationByEnter}
